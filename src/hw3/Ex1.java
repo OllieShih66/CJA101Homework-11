@@ -41,7 +41,7 @@ public class Ex1 {
 		} else {
 			System.out.println("其他三角形");
 		}
-		sc.close();		//不太確定用途
+		sc.close();	
 	}
 
 }

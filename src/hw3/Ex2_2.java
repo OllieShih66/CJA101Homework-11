@@ -38,5 +38,6 @@ public class Ex2_2 {
 		}
 
 		sc.close();
+
 	}
 }

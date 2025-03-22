@@ -31,7 +31,7 @@ public class Ex2 {
 				}
 			} else {
 				System.out.println("請輸入整數");
-				sc.next(); // 清除無效輸入，避免無限迴圈
+				sc.next(); // 清除無效輸入，避免無窮迴圈
 			}
 
 		}

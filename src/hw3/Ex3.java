@@ -37,6 +37,7 @@ public class Ex3 {
 		}
 
 		sc.close();
+
 	}
 
 }
