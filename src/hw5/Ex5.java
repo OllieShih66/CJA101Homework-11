@@ -23,7 +23,7 @@ public class Ex5 {
 
 	public static void main(String[] args) {
 		
-		System.out.print("產生驗證碼為：");
+		System.out.println("本次隨機產生驗證碼為：");
 
 		for (int i = 1; i <= 8; i++) {
 			// 將每個方法產生結果放入陣列中
