@@ -18,11 +18,11 @@ public class Ex1 {
 		int i; // 儲存每次讀取的一個字元的 ASCII 值
 		
 		// 定義文件物件，指向目標文件
-		File f = new File("C:\\Users\\TMP-214\\Downloads\\Sample.txt"); 
+		File f = new File(".\\data\\Sample.txt"); 
 
 		try {
 			// 步驟2: 計算文件中的字元數	
-			FileReader fr1 = new FileReader("C:\\Users\\TMP-214\\Downloads\\Sample.txt"); // 建立 FileReader 對象，用於讀取文件內容
+			FileReader fr1 = new FileReader(".\\data\\Sample.txt"); // 建立 FileReader 對象，用於讀取文件內容
 			BufferedReader br1 = new BufferedReader(fr1); // 使用 BufferedReader 包裝 FileReader，提升讀取效率
 
 			while ((i = br1.read()) != -1) { // 每次讀取一個字元，直到文件結尾 (-1)
@@ -32,7 +32,7 @@ public class Ex1 {
 
 			// 步驟3: 計算文件中的行數
 			// 因為前面使用 read()方法讀取文件時，已經讀到文件尾末了，需要重新讀取文件內容
-			FileReader fr2 = new FileReader("C:\\Users\\TMP-214\\Downloads\\Sample.txt"); 
+			FileReader fr2 = new FileReader(".\\data\\Sample.txt"); 
 																							
 			BufferedReader br2 = new BufferedReader(fr2); 
 
