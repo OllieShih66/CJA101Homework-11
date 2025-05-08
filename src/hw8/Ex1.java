@@ -30,14 +30,14 @@ public class Ex1 {
 		// Iterator
 		Iterator objs = list.iterator();
 		while (objs.hasNext())
-			System.out.print(objs.next() + "、");
+			System.out.print(objs.next() + " ");
 		
 		System.out.println("");
 		System.out.println("=========================================");
 
 		// 傳統for
 		for (int i = 0; i < list.size(); i++) {
-			System.out.print(list.get(i) + "、");
+			System.out.print(list.get(i) + " ");
 		}
 		
 		System.out.println("");
@@ -45,7 +45,7 @@ public class Ex1 {
 
 		// foreach
 		for (Object item : list)
-			System.out.print(item + "、");
+			System.out.print(item + " ");
 		
 		System.out.println("");
 		System.out.println("================================================");
